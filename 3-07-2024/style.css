@@ -82,37 +82,72 @@
 
 
 @media screen and (max-width: 480px) {
-    #fifth{
-        background-color: blue;
-        /* position: relative; */
-    
 
+    .container{
+        height: 600px;
+        padding: 0px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
-
+    
     .flex{
         width: 50%;
-        height: 500px;
-        margin-left: 20px;
+        height: 200px;
+        margin-left: 60px;
+        display: flex;
+        justify-content: center;
     }
 
+    #one{
+        width: 5px;
+        height: 200px;
+        margin-left: 20%;
+        background-color: brown;
+    }
+    
     #two{
         width: 100px;
-        height: 10px;
+        height: 15px;
     }
     
     #three{
         width: 100px;
-        height: 10px;
+        height: 15px;
     }
     
     #four{
         width: 100px;
-        height: 10px;
+        height: 15px;
+    }
+    
+    #circle{
+        height: 15px;
+        width: 15px;
+        border-radius: 50%;
     }
 
-    #circle{
+    #fifth{
         height: 10px;
-        width: 10px;
-        border-radius: 50%;
-        }
-  }
+        width: 70px;
+    
+    }
+    
+    #sixth{
+        height: 10px;
+        width: 100px;
+    }
+    
+    #seventh{
+        height: 10px;
+        width: 130px;
+    }
+
+    .flex3{
+        display: flex;
+        /* justify-content: left;
+        align-items: left; */
+        width: 50%;
+    }
+}

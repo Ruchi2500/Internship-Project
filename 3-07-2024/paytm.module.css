@@ -1,0 +1,91 @@
+.container{
+    background-color: #0f4b8a;
+    padding: 5px 2% 50px 2%;
+    
+    
+}
+
+.flex{
+    display: flex;
+    justify-content: space-between;
+}
+
+.text{
+    color: white;
+    font-size: 36px;
+    line-height: 100%;
+}
+
+.item_img{
+    width: 80px;
+    height: 80px;
+}
+
+.item_text{
+    color: white;
+    font-size: 18px;
+    width: 90px;
+    line-height: 120%;
+}
+
+.item_movie{
+    display: flex;
+    flex-direction: column;
+}
+
+/* .movie {
+    width: 2px;
+    height: 2px;
+}
+
+.flight{
+    width: 2px;
+    height:20px;
+
+}
+
+.travel{
+    width: 2px;
+    height: 2px;
+}
+
+.bus{
+    width: 10px;
+    height: 10px;
+
+}
+
+.invest{
+    width: 10px;
+    height: 10px;
+}
+
+.insurance{
+    width: 10px;
+    height: 10px;
+} */
+
+@media screen and (max-width: 350px){
+    .text{
+        font-size: 20px;
+    }
+
+    .item_img{
+        height: 30px;
+        width: 30px;
+    }
+
+    .container{
+        padding: 5%;
+        
+    }
+
+    .item_text{
+        font-size: 10px;
+        width: 80px;
+    }
+    .flex{
+        /* flex-wrap: wrap; */
+        overflow: auto;
+    }
+}
